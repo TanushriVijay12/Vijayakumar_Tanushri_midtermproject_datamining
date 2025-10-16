@@ -1,4 +1,0 @@
-pandas>=2.0.0
-mlxtend>=0.23.0
-jupyter>=1.0.0
-
