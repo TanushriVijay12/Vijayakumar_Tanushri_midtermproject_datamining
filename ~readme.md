@@ -11,7 +11,7 @@ The goal is to extract **frequent itemsets** and **association rules** from tran
 
 ---
 
-## ⚙️ Setup & Installation
+## ⚙️ Setup & Installation
 
 1. Clone the repository
 
@@ -19,9 +19,9 @@ The goal is to extract **frequent itemsets** and **association rules** from tran
 
      cd <repo-name>
 2. Create and activate a virtual environment
-    python -m venv venv
-    source venv/bin/activate   # Linux/Mac
-    venv\Scripts\activate      # Windows
+    ```bash
+   git clone https://github.com/TanushriVijay12/Vijayakumar_Tanushri_midtermproject_datamining.git
+   cd Vijayakumar_Tanushri_midtermproject_datamining
 3. Install dependencies
 
 ---
