@@ -72,6 +72,7 @@ Association Rules:
 ## Execution Time Comparison:
 
 Algorithm	Time (seconds)
+
 Brute Force	0.2919
 
 Apriori	0.0272
