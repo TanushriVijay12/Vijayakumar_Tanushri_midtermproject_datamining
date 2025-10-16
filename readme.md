@@ -11,23 +11,7 @@ The goal is to extract **frequent itemsets** and **association rules** from tran
 
 ---
 
-##   Setup & Installation^S
-
-1. Clone the repository
-# Association Rule Mining
-
-## Overview
-This project explores **Association Rule Mining** by implementing and comparing three different approaches:
-
-1. **Brute Force**
-2. **Apriori** (using the `mlxtend` library)
-3. **FP-Growth** (using the `mlxtend` library)
-
-The goal is to extract **frequent itemsets** and **association rules** from transaction datasets, then compare the efficiency of the algorithms.
-
----
-
-##   Setup & Installation^S
+## Setup & Installations
 
 1. Clone the repository
     ```bash
@@ -39,11 +23,11 @@ The goal is to extract **frequent itemsets** and **association rules** from tran
     python -m venv venv
     source venv/bin/activate   # Linux/Mac
     venv\Scripts\activate      # Windows
-```
+    ```
 3. Install dependencies
     ```bash
     pip install -r requirements.txt
-```
+    ```
 
 ---
 
@@ -65,5 +49,5 @@ Run individual algorithms:
     python src/brute_force.py
     python src/apriori.py
     python src/fpgrowth.py
-```
+    ```
 
