@@ -45,9 +45,41 @@ The goal is to extract **frequent itemsets** and **association rules** from tran
 ### Option 2 - Python scripts
 
 Run individual algorithms:
+
     ```
     python src/brute_force.py
     python src/apriori.py
     python src/fpgrowth.py
     ```
+---
 
+## Example Output
+
+Frequent Itemsets:
+``` 
+['Milk', 'Bread'] : Support = 0.45
+['Pen', 'Ink'] : Support = 0.40
+```
+
+Association Rules:
+```
+[Ink] -> [Pen] (support=0.40, confidence=1.0)
+[Pen] -> [Ink] (support=0.40, confidence=0.67)
+```
+
+--- 
+
+## Execution Time Comparison:
+
+Algorithm	Time (seconds)
+Brute Force	0.2919
+Apriori	0.0272
+FP-Growth	0.0119
+
+--- 
+
+## Takeaway
+
+- Brute Force becomes infeasible for larger datasets.
+- Apriori is efficient but slows down as transactions grow.
+- FP-Growth is the most scalable and memory-efficient.
