@@ -46,11 +46,11 @@ The goal is to extract **frequent itemsets** and **association rules** from tran
 
 Run individual algorithms:
 
-    ```
+```
     python src/brute_force.py
     python src/apriori.py
     python src/fpgrowth.py
-    ```
+ ```
 ---
 
 ## Example Output
@@ -73,7 +73,9 @@ Association Rules:
 
 Algorithm	Time (seconds)
 Brute Force	0.2919
+
 Apriori	0.0272
+
 FP-Growth	0.0119
 
 --- 
